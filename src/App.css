@@ -1,0 +1,86 @@
+.app-container {
+    max-width: 550px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: white;
+}
+
+.header {
+    background-color: #F55A5A;
+    display: flex;
+    color: white;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 1.2em;
+    margin-bottom: 2em;
+}
+
+section {
+    padding: 1.5em 3em 0;
+}
+
+.travel-container {
+    display: flex;
+}
+
+.travel-img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.travel-info {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+}
+
+.location img {
+    width: 10px;
+    height: 10px;
+    color: #F55A5A;
+}
+.location-name,
+.google-maps-text,
+.date-text,
+.description-text {
+    font-size: 0.64rem;
+}
+.location-name {
+    letter-spacing: 2px;
+    margin-right: 1em;
+}
+
+.google-maps-text {
+    color: #918E9B;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h2,
+.date-text {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.56rem;
+    margin-bottom: 0.5em;
+}
+
+
+.description-text {
+    line-height: 150%;
+}
+
+hr {
+    margin-top: 1.5em;
+    color: #F5F5F5;
+    opacity: 0.5;
+}
