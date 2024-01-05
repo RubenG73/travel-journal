@@ -1,6 +1,6 @@
 import './App.css'
 import Travel from './components/Travel'
-import Header from './components/header'
+import Header from './components/Header'
 import data from './data'
 
 const travelData = data.map(data => {
